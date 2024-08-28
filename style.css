@@ -400,6 +400,21 @@ a.hoverline {
 
 /* main a.hoverline */
 
+#skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+#skills .col img.responsive-img:hover {
+  transform: scale(1.1); /* Make the image 10% larger on hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow on hover */
+}
+
 /* a.hoverline:hover {
   border-bottom: 3px solid #24305e !important;
 } */
@@ -409,6 +424,7 @@ a.hoverline:hover {
 }
 
 #skills .card.large {
+  
   height: 360px;
 }
 
@@ -417,8 +433,8 @@ a.hoverline:hover {
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
-
 #skills .col img.responsive-img {
+  
   margin: 0 auto;
   max-height: 100px;
   padding-bottom: 10px;
@@ -763,6 +779,7 @@ body.dark-mode .brown-text {
 
   #skills .col img.responsive-img {
     max-height: 60px;
+  
   }
 
   #contact a:not(.btn-floating) {
